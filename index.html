@@ -5,6 +5,9 @@
   </head>
   <body></body>
   <script>
-    location.href = "model1/index.htm"
+    let u = location.href
+    if ( u[ u.length - 1 ] == '/' )
+    location.href = u+"model1/index.htm"
+    location.href = u+"/model1/index.htm"
   </script>
 </html>
