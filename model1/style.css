@@ -1,0 +1,445 @@
+@media screen and (min-width: 0px)
+{
+    :root{
+    bg: white;
+}
+::-webkit-scrollbar-thumb{
+background: #1071ee;
+}
+::-webkit-scrollbar{
+    background: transparent;
+width: 3.7pt;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+body header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+body header div.head{
+    background: #222;
+    width: 94%;
+    color: white;
+    font-weight: 900;
+    padding: 0.5% 1% 0.5% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+header div.head a{
+    text-decoration-line: none;
+    color: white;
+    font-family: calibri;
+    font-size: 10pt;
+    padding: 0.1% 2%;
+}
+header div.head button{
+    background: #1071dd;
+    color: white;
+    padding: 0.7% 1%;
+    border: none;
+    border-radius: 2pt;
+    position: absolute;
+    font-weight: 700;
+    width: 10%;
+    right: 5%;
+    bottom: 0;
+}
+header  div.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    background: white;
+    color: black;
+    position: relative;
+}
+header div.main i#logo{
+    background: url(./logo.png) center center;
+    background-size: 100% 100%;
+    height: 99%;
+    width: 5%;
+}
+header div.main h1{
+    padding: 0 0.5%;
+    color: black;
+    font-family: impact;
+    font-size: 210%;
+}
+header div.main p{
+    position: absolute;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    top: 14%;
+    font-family: arial;
+}
+header div.main p em{
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 2%;
+}
+header div.footer{
+    width: 100%;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+}
+header div.footer a{
+    color: black;
+    text-decoration: none;
+    margin: 0 5%;
+    font-weight: 800;
+    font-family: calibri;
+}
+body main{
+    width: 94%;
+    min-height: 50%;
+    background: url(image.jpg) center bottom;
+    background-size: 100% 240%;
+    padding: 1% 1% 1% 5%;
+}
+main h2{
+ margin-top: 3%;
+ width: 60%;
+ color: white;
+ font-size: 180%;
+ font-family: arial
+}
+main p{
+    color: #ddd;
+    font-family: arial narrow;
+    width: 60%;
+}
+.line{
+display: flex;
+flex-direction: row;
+}
+main button, .left .line button{
+    margin-top: 3%;
+    margin-right: 5%;
+    padding: 1% 1%;
+    font-weight: 900;
+    border: 2pt solid white;
+    color: white;
+    background: transparent;
+    border-radius: 8pt;
+    width: 8%;
+}
+main button:last-child, .left .line button:last-child{
+    color: #1071dd;
+    background: white; 
+}
+body footer{
+    min-height: 140vh;
+    height: max-content;
+    width: 100%;
+    background: white;
+    position: relative;
+}
+body footer menu.course{
+width: 80%;
+height: max-content;
+position: relative;
+left: 10%;
+transform: translateY(-25%);
+background: white;
+border-radius: 4pt;
+display: flex;
+flex-direction: column;
+}
+menu.course article{
+    display: flex;
+    flex-direction: row;
+    width: 28%;
+    padding: 2%;
+}
+menu.course article i#ico{
+    height: 90%;
+    width: 26%;
+    background: url(logo.png) center center;
+    background-size: 100% 100%;
+    margin: 1% 1%;
+}
+menu.course article p{
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    font-family: arial narrow;
+    width: 80%;
+}
+menu.course article p strong{
+    width: 99%;
+    color: black;
+    font-family: arial;
+}
+menu.course article p a{
+    text-decoration: none;
+    width: 99%;
+    padding: 0.3% 0;
+    font-family: calibri;
+    font-weight: 600;
+    color: #1071ee;
+}
+footer hr:first-child{
+    margin-top: 10vh;
+    z-index: 3;
+}
+footer hr+legend{
+    z-index: 7;
+    background: white;
+    position: relative;
+    transform: translateY(-55%);
+    font-weight: 600;
+    font-size: 70%;
+    font-family: arial;
+    color: gray;
+    width: max-content;
+    padding: 1% 1%;
+    margin-left: 5%;
+}
+footer div.div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 70vh;
+}
+footer div.div .left, footer div.div .right{
+width: 48%;
+padding: 1% 1%;
+display: flex;
+flex-direction: column;
+}
+footer div.div .right{
+    background: url(image2.jpg) center center;
+    background-size: 100% 100%;
+}
+footer div.div .left h1, footer div.div .left p{
+text-align: left;
+justify-content: left;
+align-items: left;
+}
+footer div.div .left{
+    width: 39%;
+    margin-left: 5%;
+}
+.left h1, .left h3, .left h4{
+    position: relative;
+    font-family: arial;
+    width: 90%;
+}
+.left p{
+    color: gray;
+    font-family: arial narrow;
+    margin: 4vh 0;
+}
+.left .line button{
+    border-color: #1071dd;
+    color: #1071ee;
+    background: transparent;
+    padding: 1% 0.5%;
+    width: 20%;
+    margin: 0 2% 0 0;
+}
+.left .line button:last-child{
+    background: #1071ee;
+    color: white;
+}
+footer .camp{
+    border: none;
+    width: 100%;
+    background: #eee;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.camp .head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+    font-family: arial;
+}
+.camp .head h1{
+width: 40%;
+color: #333;
+text-align: center;
+}
+.camp .head p{
+    width: 45%;
+    font-family: arial narrow;
+    text-align: center;
+    margin: 2% 0;
+    color: #555;
+}
+.camp .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 1% 0;
+}
+.camp .main menu{
+    min-height: 50vh;
+    width: 24%;
+    height: max-content;
+    margin: 0 1.5%;
+    background: white;
+    border: 0.4pt solid #eee;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.camp .main menu i{
+    width: 100%;
+    height: 40vh;
+    background: url(image14.jpg) center center;
+    position: relative;
+    background-size: 110% 100%;
+}
+.camp .main menu legend{
+    font-weight: 900;
+    color: black;
+    font-family: arial;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.camp .main menu p{
+    color: gray;
+    font-family: arial narrow;
+    text-align: justify;
+    margin: 2.5% 0;
+    margin-left: 5%;
+    width: 90%;
+}
+.camp .main menu a::after{
+    font-family: calibri;
+    content: "saiba mais >";
+    color: #1071ee;
+    margin-left: 5%;
+}
+.camp menu a{
+    text-decoration: none;
+    font-weight: 800;
+}
+.camp .footer{
+    margin: 4% 0;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.camp .footer i#image{
+    width: 60%;
+    min-height: 100%;
+    background: url(image3.jpg) center center;
+    background-size:  100% 100%;
+    transform: translate(0%, -2%);
+    position: relative;
+    left: 0;
+}
+.camp .footer div.data{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 60%;
+    padding: 1% 0 0 10%;
+    background: #1071ee;
+    color: white;
+}
+.camp .footer div.data h1, .data h2{
+    font-family: arial;
+}
+.camp .footer div.data p{
+    font-family: arial narrow;
+    width: 80%;
+    color: #ddd;
+    margin: 2% 0;
+}
+.data h2{
+    margin-top: 5%;
+}
+nav.foot{
+    margin-top: 5%;
+    width: 97%;
+    background: #333;
+    padding: 0 1.5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.foot div{
+    width: 21%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot .first{
+    width: 28%;
+}
+.foot .first i#ico{
+    background: url(logo.png) center center;
+    background-position-y: 60%;
+    background-size: 114% 119%;
+    border-radius: 50%;
+    min-height: 10vh;
+    width: 30%;
+    margin: 2% 0;
+}
+.foot .first strong, .foot .center strong, .foot .last strong{
+    font-family: arial;
+    text-align: center;
+    margin: 2% 0;
+}
+.foot .center i#ico{
+    background: url(signa.jpg) center center;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    border-radius: 1pt;
+    min-height: 10vh;
+    width: 30%;
+}
+.foot div ul{
+    text-align: left;
+}
+.foot div ul li{
+    margin: 3% 0;
+}
+.foot div ul li{
+    color: #777;
+    font-family: calibri;
+}
+.foot .last i#ico{
+    background: url(logo-angola.png) center center;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    border-radius: 1pt;
+    min-height: 10vh;
+    width: 80%;
+}
+}
